@@ -1,10 +1,10 @@
 import smtplib
 
-gmail_user = 'email'
-gmail_password = 'password'
+gmail_user = input("email: ")
+gmail_password = input('password: ')
 
 sent_from = gmail_user
-to = ["reciever", "other_reciever"]
+to = [input("reciever: ")]
 subject = 'subject'
 body = 'message'
 
